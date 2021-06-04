@@ -83,7 +83,39 @@ const quizData = [
             { value: "Stockholm" },
             { value: "Ulan Batuur" }
         ]
-    }
+    },
+    {
+        question: "What is the capitol of Sweden?",
+        answers: [
+            { value: "Oslo" },
+            { value: "Stockholm", correct: true },
+            { value: "Ulan Batuur" }
+        ]
+    },
+    {
+        question: "What genre of music is Michael Jackson known for?",
+        answers: [
+            { value: "Oslo" },
+            { value: "Pop music", correct: true },
+            { value: "Ulan Batuur" }
+        ]
+    },
+    {
+        question: "Who is the current president of the United States?",
+        answers: [
+            { value: "Michael Jackson" },
+            { value: "Joe Biden", correct: true },
+            { value: "Ulan Batuur" }
+        ]
+    },
+    {
+        question: "Which of these Pokemon are electric type?",
+        answers: [
+            { value: "Pikachu", correct: true },
+            { value: "Joe Biden" },
+            { value: "Michael Jackson" }
+        ]
+    },
 ]
 
 function renderAlternative(questionName, index, answerString) {
