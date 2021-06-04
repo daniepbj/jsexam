@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js exam</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="header">
+            <h1>Javascript Exam: Coding Task</h1>
+        </div>
+
+        <div class="middle">
+            <h2>Home</h2>
+            <h3>Friends</h3>
+            <table class="friendOutput"></table>
+            <h3>Family</h3>
+            <table class="familyOutput"></table>
+            <span>Hi! My Name is Daniel, i am 29 years old and i live in Oslo. Short bio about myself: Currently in the
+                middle of an exam so I dont really have time to write about my hobbies, i Study at NTNU and i love
+                riding the bus</span>
+            <img src="img/test.jpg" alt="pic">
+            <h2>Quiz</h2>
+
+            <form name="myForm">
+                <input type="text" id="fName" name="FirstName" placeholder="First name" />
+                <input type="text" id="LName" name="LastName" placeholder="Last name" />
+                <input type="text" id="yourAge" name="yourAge" placeholder="Your age" />
+                <input type="text" id="num" name="mobile" />
+                <input type="submit" onclick="saveLocal()" placeholder="Phone number" />
+            </form>
+
+            <h2>Quiz</h2>
+            <div id="quiz"></div>
+
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

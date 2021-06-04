@@ -1,0 +1,46 @@
+html, body, .grid-container { 
+  text-align: center;
+  
+  margin: 0; 
+  background-color: rgb(119, 121, 100);
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+}
+.header { 
+ 
+grid-area: 1 / 1 / 2 / 6;
+clip-path: polygon(0 0, 100% 0%, 100% 14%, 0 100%);
+background-color: #9a9f4d;
+opacity: 70%;
+}
+
+
+.middle { 
+
+  grid-area: 2 / 1 / 4 / 6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+ 
+ }
+
+
+.footer { grid-area: 4 / 1 / 5 / 6;
+  clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+  background-color:#9a9f4d;
+}
+
+body{
+    background-color:#c2a75e;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+}

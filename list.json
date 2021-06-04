@@ -1,0 +1,139 @@
+[
+	{
+		"name": "John",
+		"age": 25,
+		"city": "Brazil",
+        "category": "family" 
+	},
+	{
+		"name": "Jonas",
+		"age": 29,
+		"city": "London",
+        "category": "friend" 
+	},
+    {
+		"name": "Adam",
+		"age": 29,
+		"city": "Oslo",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Tore",
+		"age": 34,
+		"city": "Oslo",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Lisa",
+		"age": 36,
+		"city": "Stockholm",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Maria",
+		"age": 50,
+		"city": "Trollhättan",
+        "category": "family" 
+	},
+
+    {
+		"name": "Tom",
+		"age": 24,
+		"city": "Kalmar",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Rasmus",
+		"age": 39,
+		"city": "Lisboa",
+        "category": "friend" 
+	},
+
+    {
+		"name": "James",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Hedda",
+		"age": 23,
+		"city": "Gjövik",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Jesper",
+		"age": 24,
+		"city": "Stockholm",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Johanna",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "John2",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Jonas",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Simon",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Hanna",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Linus",
+		"age": 24,
+		"city": "Birmingham",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Jerry",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+
+    {
+		"name": "Tim",
+		"age": 24,
+		"city": "London",
+        "category": "friend" 
+	},
+    
+    {
+		"name": "Sofia",
+		"age": 30,
+		"city": "Gothenbourg",
+        "category": "family" 
+	}
+]
