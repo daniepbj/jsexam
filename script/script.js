@@ -137,7 +137,10 @@ function renderQuestion(question) {
     const questionHeading = document.createElement('h3')
     questionHeading.textContent = question.question
     questionDiv.appendChild(questionHeading)
-    question.answers.map((answer, index) => questionDiv.appendChild(renderAlternative(question.question, index, answer.value)))
+    const answersDiv = document.createElement('div')
+    answersDiv.className = "quiz-answers"
+    question.answers.map((answer, index) => answersDiv.appendChild(renderAlternative(question.question, index, answer.value)))
+    questionDiv.appendChild(answersDiv)
 
     return questionDiv
 }
