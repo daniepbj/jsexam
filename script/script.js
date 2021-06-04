@@ -100,7 +100,6 @@ function renderAlternative(questionName, index, answerString) {
 }
 
 function renderQuestion(question) {
-    console.log(question)
     const questionDiv = document.createElement('div')
     questionDiv.className = "quiz-question"
     const questionHeading = document.createElement('h3')
@@ -134,20 +133,19 @@ function renderQuiz(element, quizData) {
     element.appendChild(checkButton)
 }
 
-
-renderQuiz(document.querySelector('#quiz'), quizData)
-
-function result() {
-    //storing
-
-    var score = document.querySelector('input[name="answer1"]:checked').value;
-    if (!score) {
-        alert('No score was selected. Try again.');
-        return false;
-    }
-    else {
-        alert(score + ' was selected!');
-    }
+function saveLocal() {
+    alert('hi')
 }
 
-
+renderQuiz(document.querySelector('#quiz'), quizData)
+document.querySelector('#localStorageForm > input[type=submit]').addEventListener('click', (e) => {
+    e.preventDefault()
+    const formData = {
+        firstName: document.querySelector('#localStorageForm > input#fName').value,
+        lastName: document.querySelector('#localStorageForm > input#LName').value,
+        age: document.querySelector('#localStorageForm > input#yourAge').value,
+        phoneNumber: document.querySelector('#localStorageForm > input#num').value,
+    }
+    window.localStorage.setItem('formData', JSON.stringify(formData))
+}
+)
